@@ -20,7 +20,7 @@ dateTimeNearest10Min = str(datetime.datetime(now.year, now.month, now.day, now.h
 print("dateTimeNearest5Min " + dateTimeNearest5Min)
 print("dateTimeNearest10Min " + dateTimeNearest10Min)
 
-apikey = "FQNM"
+apikey = "AORKX5WZHKYNAT1F"
 # apiKeys = ["FQNM", "1BRMFVOI45RA8EFC", "G1YTRRFMBBYDQX6T", "BXLDWMT70TUJFHS4", "LMV6TGJDJQNFQIOX", "CVQ3ZXDM2VSGHLNX"]
 tickers = ["SPY", "TSLA"]
 # "UGAZ", "UWTI", "GLD", "BA", "IWM", "QQQ", "VXX", "EWZ", "XLF", "XLV", "XLU", "AAPL", "AMZN", "GOOG", "MSFT", "FB", "NFLX", "NVDA", "TSLA"
