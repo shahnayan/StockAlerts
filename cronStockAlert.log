@@ -134,3 +134,51 @@ Traceback (most recent call last):
   File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
     ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
 KeyError: '2019-05-16 22:55'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 09:30'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 36, in <module>
+    ema9Before = ema9Data["Technical Analysis: EMA"][dateTimeNearest10Min]["EMA"]
+KeyError: '2019-05-17 09:30'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:05'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:10'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:15'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:20'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:25'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:30'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:35'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:40'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:45'
+Traceback (most recent call last):
+  File "/Users/nshah/PycharmProjects/StockAlerts/stockAlerts.py", line 34, in <module>
+    ema9Now = ema9Data["Technical Analysis: EMA"][dateTimeNearest5Min]["EMA"]
+KeyError: '2019-05-17 16:50'

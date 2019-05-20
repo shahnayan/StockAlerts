@@ -22,8 +22,9 @@ print("dateTimeNearest10Min " + dateTimeNearest10Min)
 
 apikey = "AORKX5WZHKYNAT1F"
 # apiKeys = ["FQNM", "1BRMFVOI45RA8EFC", "G1YTRRFMBBYDQX6T", "BXLDWMT70TUJFHS4", "LMV6TGJDJQNFQIOX", "CVQ3ZXDM2VSGHLNX"]
-tickers = ["SPY", "TSLA"]
-# "UGAZ", "UWTI", "GLD", "BA", "IWM", "QQQ", "VXX", "EWZ", "XLF", "XLV", "XLU", "AAPL", "AMZN", "GOOG", "MSFT", "FB", "NFLX", "NVDA", "TSLA"
+tickers = ["SPY", "QQQ", "AAPL", "TSLA", "XLF", "XLV", "XLU", "SOXX", "XLP", "NFLX", "ABBV"]
+supportResistance = dict({"SPY":"283.26, 284.74, 287.40, 291.24", "QQQ":"181.76, 182.52, 184.43, 186.01", "AAPL":"178.43, 185.47, 193.76, 204.8",  "TSLA":"228.97",  "XLF":"26.33, 26.75, 26.96, 27.17",  "XLV":"87.14, 89.66",  "XLU":"58.25, 58.72",  "SOXX":"162.94, 195.26",  "XLP":"57.25, 57.33",  "NFLX":"348.67, 381.40",  "ABBV":"69.91, 79.72, 82.07, 91.95"})
+# "SPY", "TSLA", "UGAZ", "UWTI", "GLD", "BA", "IWM", "QQQ", "VXX", "EWZ", "XLF", "XLV", "XLU", "AAPL", "AMZN", "GOOG", "MSFT", "FB", "NFLX", "NVDA", "TSLA"
 for ticker in tickers:
     print("Working on " + ticker)
 
@@ -46,10 +47,10 @@ for ticker in tickers:
     print("ema4Before " + ema4Before)
 
     if ema4Before >= ema9Before and ema4Now < ema9Now:
-        voice.send_sms(5102697649, "SELL " + ticker)
-        print("Sending SELL SMS for " + ticker)
+        voice.send_sms(5102697649, "SELL " + ticker + ". Levels : " + supportResistance[ticker])
+        print("Sending SELL SMS for " + ticker + ". Levels : " + supportResistance[ticker])
     if ema4Before <= ema9Before and ema4Now > ema9Now:
-        voice.send_sms(5102697649, "BUY " + ticker)
-        print("Sending BUY SMS for " + ticker)
+        voice.send_sms(5102697649, "BUY " + ticker + ". Levels : " + supportResistance[ticker])
+        print("Sending BUY SMS for " + ticker + ". Levels : " + supportResistance[ticker])
 
 print ("End " + str(datetime.datetime.now()))
